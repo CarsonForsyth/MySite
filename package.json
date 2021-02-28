@@ -1,0 +1,27 @@
+{
+  "name": "site_package",
+  "version": "1.0.0",
+  "description": "A simple site for viewing personal information",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CarsonForsyth/MySite.git"
+  },
+  "author": "Carson Forsyth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CarsonForsyth/MySite/issues"
+  },
+  "homepage": "https://github.com/CarsonForsyth/MySite#readme",
+  "dependencies": {
+    "bootstrap": "^3.4.1",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7",
+    "webpack": "^5.24.2"
+  }
+}
